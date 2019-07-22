@@ -1,0 +1,135 @@
+
+.Introduction {
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    width: 500px;
+    height: 265px;
+    border: 5px solid;
+    border-color: #FFE6EE;
+    font-family: 'Montserrat', sans-serif;
+}
+.Introduction1 {
+    display: inline-flex;
+    margin: 50px;
+}
+body {
+    background-color: white;
+}
+nav{
+    background-color: #FFE6EE;
+    height: 80px;
+}
+.Navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navi {
+    font-family: 'Oswald', sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Logo {
+    width: 50px;
+}
+#Logo2 {
+    width: 30px;
+}
+h1, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: lightblue;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-family: 'Montserrat', sans-serif;
+  }
+#profile2 {
+    border-radius: 10%;
+}
+.SocialMedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#media {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+  }
+
+#kiki {
+    width: 165px;
+}
+
+.bounceMe {
+    animation: bounceKiki 0.7s infinite;
+}
+@keyframes bounceKiki {
+    from {
+      margin-top: 0px;
+    }
+    50% {
+      margin-top: 7px;
+    }
+    to {
+      margin-top: 0px;
+    }
+  }
