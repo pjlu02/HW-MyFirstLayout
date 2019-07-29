@@ -1,0 +1,108 @@
+nav{
+    background-color: #FFE6EE;
+    height: 80px;
+}
+.Navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navi {
+    font-family: 'Oswald', sans-serif;
+}
+#Logo {
+    width: 50px;
+}
+#Logo2 {
+    width: 30px;
+}
+.CaseStudy {
+    display: grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns:1fr 1fr;
+    grid-template-areas:
+    "heroImg heroImg"
+    "leftContent rightContent"
+    "footer footer";
+  }
+  .heroImg {
+   grid-area: heroImg;
+  }
+  .leftContent {
+   grid-area: leftContent;
+   margin-top: 50px;
+  }
+  .rightContent {
+   grid-area: rightContent;
+   margin-top: 25px;
+   margin-right: 25px;
+   text-align: center;
+   padding: 100px;
+   border: 5px solid;
+   border-color: #FFE6EE;
+  }
+  .footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+  }
+.gridChild {
+    min-height: 50px;
+  }
+.spacing {
+    margin:25px 0px;
+  }
+#Hero {
+    width: 1420px;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+.button {
+    background-color: #FFE6EE;
+    border: none;
+    color: teal;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+#Plannr {
+    width: 500px;
+    margin-left: 100px;
+}
+#media {
+    width: 50px;
+}
+
+@media only screen and (max-width: 720px) {
+
+}
+
+@media only screen and (max-width: 500px) {
+  .CaseStudy {
+    display: grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns:1fr;
+    grid-template-areas:
+    "heroImg"
+    "leftContent"
+    "rightContent"
+  }
+}
