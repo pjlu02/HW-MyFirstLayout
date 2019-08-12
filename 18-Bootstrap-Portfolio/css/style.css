@@ -37,6 +37,44 @@ p {
     border: none !important;
     font-family: 'Oswald', sans-serif !important;
 }
+.button {
+      border-radius: 4px;
+      background-color: #CFADAB;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 15px;
+      padding: 10px;
+      width: 150px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+    
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
 .jumbotron2 {
     text-align: center;
     background-color: #FFE6EE;
@@ -116,3 +154,16 @@ blockquote span{
       margin-top: 0px;
     }
   }
+.form {
+  margin: 20px;
+}
+.carousel {
+  width: 1000px;
+  margin-left: 15%;
+  margin-bottom: 20px;
+}
+.card {
+  margin-left: 50px;
+  margin-right: 50px;
+  border: none !important;
+}
