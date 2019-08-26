@@ -1,0 +1,231 @@
+#Logo {
+    width: 50px;
+}
+.navbar {
+    background-color: #FFE6EE;
+}
+.nav-link {
+    font-family: 'Oswald', sans-serif;
+}
+.navbar-nav {
+    margin-left: auto;
+   }
+.CaseStudy {
+    display: grid;
+    grid-template-rows:360px 150px 150px 150px 150px 360px 150px 360px 150px 360px 450px 150px 360px 180px;
+    grid-template-columns:50% 50%;
+    grid-template-areas:
+    "leftContent rightContent"
+    "header header"
+    "leftDetails rightDetails"
+    "leftDetails2 rightDetails2"
+    "content content"
+    "leftContent2 rightContent2"
+    "content2 content2"
+    "leftContent3 rightContent3"
+    "content3 content3"
+    "leftContent4 rightContent4"
+    "leftContent6 rightContent6"
+    "content4 content4"
+    "leftContent5 rightContent5"
+    "content5 content5";
+}
+.gridChild {
+    min-height: 50px;
+  }
+.spacing {
+    margin: 50px 0px;
+  }
+  .leftContent {
+    grid-area: leftContent;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+   }
+   .rightContent {
+    grid-area: rightContent;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+   }
+   .leftContent2 {
+    grid-area: leftContent2;
+    text-align: center;
+    padding: 30px;
+   }
+   .rightContent2 {
+    grid-area: rightContent2;
+    text-align: center;
+    padding: 70px;
+   }
+   .leftContent3 {
+    grid-area: leftContent3;
+    text-align: center;
+    padding: 30px;
+   }
+   .rightContent3 {
+    grid-area: rightContent3;
+    text-align: center;
+    padding: 70px;
+   }
+   .leftContent4 {
+    grid-area: leftContent4;
+    text-align: center;
+    padding: 30px;
+   }
+   .rightContent4 {
+    grid-area: rightContent4;
+    text-align: center;
+    padding: 70px;
+   }
+   .leftContent5 {
+    grid-area: leftContent5;
+    text-align: center;
+    padding: 50px;
+   }
+   .rightContent5 {
+    grid-area: rightContent5;
+    text-align: center;
+    padding: 70px;
+   }
+   .leftContent6 {
+    grid-area: leftContent6;
+    text-align: center;
+   }
+   .rightContent6 {
+    grid-area: rightContent6;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+   }
+#banner {
+    width: 200%;
+}
+#banner2 {
+    width: 100%;
+    max-width: 500px;
+    filter: drop-shadow(0 0 0.30rem #707070);
+}
+.header {
+    grid-area: header;
+    text-align: center;
+    padding: 50px;
+}
+#Soot {
+    width: 100px;
+    padding: 10px;
+}
+.leftDetails {
+    grid-area: leftDetails;
+    text-align: center;
+}
+.rightDetails {
+    grid-area: rightDetails;
+    text-align: center;
+}
+.leftDetails2 {
+    grid-area: leftDetails2;
+    text-align: center;
+}
+.rightDetails2 {
+    grid-area: rightDetails2;
+    text-align: center;
+}
+.content {
+    grid-area: content;
+    text-align: center;
+    padding: 25px;
+    background-color: #EACDCF;
+}
+.content2 {
+    grid-area: content2;
+    text-align: center;
+    padding: 50px;
+    background-color: #EACDCF;
+}
+.content3 {
+    grid-area: content3;
+    text-align: center;
+    padding: 50px;
+    background-color: #EACDCF;
+}
+.content4 {
+    grid-area: content4;
+    text-align: center;
+    padding: 50px;
+    background-color: #EACDCF;
+}
+.content5 {
+    grid-area: content5;
+    text-align: center;
+    padding: 25px;
+    background-color: #EACDCF;
+}
+#image {
+    width: 100%;
+    max-width: 300px;
+    filter: drop-shadow(0 0 0.30rem #707070);
+}
+#image1 {
+    width: 100%;
+    max-width: 370px;
+    filter: drop-shadow(0 0 0.30rem #707070);
+}
+#image2 {
+    width: 100%;
+    max-width: 700px;
+    filter: drop-shadow(0 0 0.30rem #707070);
+    padding: 70px;
+}
+#image3 {
+    width: 100%;
+    max-width: 700px;
+    filter: drop-shadow(0 0 0.30rem #707070);
+    padding: 50px;
+}
+#image4 {
+    width: 100%;
+    max-width: 300px;
+}
+#image5 {
+    width: 100%;
+    max-width: 300px;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+h2 {
+    font-family: 'Pacifico', cursive;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    font-family: 'Oswald', sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+    .CaseStudy {
+        display: grid;
+        grid-template-rows:360px 150px 150px 150px 150px 360px 150px 360px 150px 360px 450px 150px 360px 180px;
+        grid-template-columns:50% 50%;
+        grid-template-areas:
+        "leftContent rightContent"
+        "header header"
+        "leftDetails rightDetails"
+        "leftDetails2 rightDetails2"
+        "content content"
+        "leftContent2 rightContent2"
+        "content2 content2"
+        "leftContent3 rightContent3"
+        "content3 content3"
+        "leftContent4 rightContent4"
+        "leftContent6 rightContent6"
+        "content4 content4"
+        "leftContent5 rightContent5"
+        "content5 content5";
+    }
+}
